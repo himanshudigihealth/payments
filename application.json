@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "id": "Create_Payment_Ticket",
+      "isDefault": false
+    },
+    {
+      "id": "Payment_Requests",
+      "isDefault": true
+    },
+    {
+      "id": "Payment_Reports",
+      "isDefault": false
+    },
+    {
+      "id": "cashback_payments",
+      "isDefault": false
+    },
+    {
+      "id": "Recharge Requests",
+      "isDefault": false
+    },
+    {
+      "id": "insert into payments",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "6231d6ca3a9d217056bed90a",
+  "color": "#F1DEFF",
+  "icon": "sunflower",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

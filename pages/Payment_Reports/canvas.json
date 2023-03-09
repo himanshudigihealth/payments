@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -5510,6 +5510,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "columnUpdatedAt": 1678263847382,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -5583,7 +5584,8 @@
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
                           "labelColor": "#FFFFFF",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_code": {
                           "allowCellWrapping": false,
@@ -5609,7 +5611,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_code\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_name": {
                           "allowCellWrapping": false,
@@ -5635,7 +5638,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_name\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "contact": {
                           "allowCellWrapping": false,
@@ -5661,7 +5665,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"contact\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "remark": {
                           "allowCellWrapping": false,
@@ -5687,7 +5692,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"remark\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "amc": {
                           "allowCellWrapping": false,
@@ -5713,7 +5719,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"amc\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "install_date": {
                           "allowCellWrapping": false,
@@ -5739,7 +5746,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"install_date\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "area_zone": {
                           "allowCellWrapping": false,
@@ -5765,7 +5773,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"area_zone\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "stop_date": {
                           "allowCellWrapping": false,
@@ -5791,7 +5800,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"stop_date\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "license_days": {
                           "allowCellWrapping": false,
@@ -5817,7 +5827,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"license_days\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "address": {
                           "allowCellWrapping": false,
@@ -5843,7 +5854,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"address\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_temp_id": {
                           "allowCellWrapping": false,
@@ -5869,7 +5881,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_temp_id\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "ideal_days": {
                           "allowCellWrapping": false,
@@ -5895,7 +5908,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ideal_days\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "status_bucket": {
                           "allowCellWrapping": false,
@@ -5921,7 +5935,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status_bucket\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "updated_time": {
                           "allowCellWrapping": false,
@@ -5947,7 +5962,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_time\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "updated_agent_id": {
                           "allowCellWrapping": false,
@@ -5973,7 +5989,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_agent_id\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "reactivation": {
                           "allowCellWrapping": false,
@@ -5999,7 +6016,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"reactivation\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "reactivation_date": {
                           "allowCellWrapping": false,
@@ -6025,7 +6043,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"reactivation_date\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "service_status": {
                           "allowCellWrapping": false,
@@ -6051,7 +6070,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"service_status\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "pincode": {
                           "allowCellWrapping": false,
@@ -6077,7 +6097,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pincode\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_gstin": {
                           "allowCellWrapping": false,
@@ -6103,7 +6124,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_gstin\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_pan": {
                           "allowCellWrapping": false,
@@ -6129,7 +6151,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_pan\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_email": {
                           "allowCellWrapping": false,
@@ -6155,7 +6178,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_email\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_gst_applicable": {
                           "allowCellWrapping": false,
@@ -6181,7 +6205,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_gst_applicable\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "installation_amount": {
                           "allowCellWrapping": false,
@@ -6208,7 +6233,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"installation_amount\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "retailer_type": {
                           "allowCellWrapping": false,
@@ -6235,7 +6261,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"retailer_type\"]))}}",
                           "cellBackground": "#86efac",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "installation_remarks": {
                           "allowCellWrapping": false,
@@ -6263,7 +6290,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"installation_remarks\"]))}}",
                           "validation": {},
-                          "cellBackground": "#86efac"
+                          "cellBackground": "#86efac",
+                          "sticky": ""
                         },
                         "area": {
                           "allowCellWrapping": false,
@@ -6291,7 +6319,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"area\"]))}}",
                           "validation": {},
-                          "cellBackground": "#86efac"
+                          "cellBackground": "#86efac",
+                          "sticky": ""
                         },
                         "geography": {
                           "allowCellWrapping": false,
@@ -6319,7 +6348,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"geography\"]))}}",
                           "validation": {},
-                          "cellBackground": "#86efac"
+                          "cellBackground": "#86efac",
+                          "sticky": ""
                         },
                         "last_bucket_time": {
                           "allowCellWrapping": false,
@@ -6347,7 +6377,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_bucket_time\"]))}}",
                           "validation": {},
-                          "cellBackground": "#86efac"
+                          "cellBackground": "#86efac",
+                          "sticky": ""
                         },
                         "cleared_installation_payment": {
                           "allowCellWrapping": false,
@@ -6375,7 +6406,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cleared_installation_payment\"]))}}",
                           "validation": {},
-                          "cellBackground": "#86efac"
+                          "cellBackground": "#86efac",
+                          "sticky": ""
                         },
                         "special_remarks": {
                           "allowCellWrapping": false,
@@ -6403,10 +6435,12 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{retailerDetails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"special_remarks\"]))}}",
                           "validation": {},
-                          "cellBackground": "#86efac"
+                          "cellBackground": "#86efac",
+                          "sticky": ""
                         }
                       },
                       "key": "4sro50t0ze",
+                      "canFreezeColumn": false,
                       "isDeprecated": false,
                       "rightColumn": 64,
                       "textSize": "0.875rem",
